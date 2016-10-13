@@ -1,4 +1,11 @@
 /**
+ * @fileOverview Puzzle 3 of 7
+ * @author <a href="mailto:a_sliwkowski@post.massbay.edu">asliwxmb</a>
+ * @version 3.1.2
+ */
+
+
+/**
  * @link https://studio.code.org/s/cspunit3/stage/2/puzzle/3
  * Puzzle 3 of 7
  * Do This:
