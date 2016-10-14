@@ -17,3 +17,5 @@ onEvent("hideButton", "click", function(event) {
 onEvent("showButton", "click", function(event) {
   showElement("logo");
 });
+
+'''
