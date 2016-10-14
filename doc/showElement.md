@@ -1,5 +1,5 @@
 ## showElement(id)
-
+<https://code.org/applab/docs/showElement?embedded>
 Category: UI controls
 
 Shows the element with the provided id.
