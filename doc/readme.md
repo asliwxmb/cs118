@@ -27,8 +27,9 @@ rows.forEach(function (row) {
 
 ```
 
-Here is the output:
+#Here is the output:
 
-. . X
+. .  X
+
 . . .
 . . .
