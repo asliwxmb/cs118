@@ -49,7 +49,7 @@ Previous item Page 50 of 52  Next item
 ## Please answer and comment on a classmate's opinion:
 
 - Imagine we have 3 textfields and a button in our screen:
-- 3 Textfiels and 1 button
+- 3 Textfields and 1 button 
 
 ### TEXTFIELDS:
 - #1) Create a textfield so that the user can type in his/her user's name and store the value in the name.
@@ -60,3 +60,16 @@ Previous item Page 50 of 52  Next item
 - a) How do you imagine this GUI (graphical user interface) should work?  
 - b) What are the steps the user should take and do?
 - c) What should the reactions of the "form" or "app" be?
+
+
+## Lab/Assignment 4  Page 51 of 52 
+
+
+- Create an Etch-A-Sketch App that allows the user to draw!  
+
+- The user should be able to draw up/down and turn right/left.
+
+- Use colors, images, buttons and any event of your choice.  
+
+- Have fun!
+
