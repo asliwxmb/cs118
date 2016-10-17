@@ -24,3 +24,11 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - What happens as a response to the  clicking, is what we called "handling the event".  
 - In other words, a function is called to do something.
 - Old Unit 3: Lesson 9 is to be read only:
+
+## Adding Buttons to our Screen  Page 48 of 52  
+
+
+1. You will now learn to add buttons to a screen (UI elements) and connect (clicks) events with event handlers (functions)!  
+- This will make our programs more interesting and fun!!
+- Complete the exercises at https://studio.code.org/s/cspunit3/stage/10/puzzle/1  
+- Please notice these are different exercises in a new location.
