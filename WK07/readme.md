@@ -32,3 +32,12 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - This will make our programs more interesting and fun!!
 - Complete the exercises at https://studio.code.org/s/cspunit3/stage/10/puzzle/1  
 - Please notice these are different exercises in a new location.
+
+## New Elements and New Event Types  Page 49 of 52  Next item
+
+
+1. Now that you have used the button element with different event types, let's learn about other elements 
+- you are already familiar with from using phone apps and web applications!
+- Complete the exercises for Lesson 11 at https://studio.code.org/s/cspunit3/stage/11/puzzle/1
+
+
