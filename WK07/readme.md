@@ -27,7 +27,7 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - Old Unit 3: Lesson 9 is to be read only: cs118/WK07/U3L09ActivityGuide-EventsUnplugged.pdf
 
 Here's our logo (hover to see the title text):
-https://studio.code.org/s/cspunit3/stage/10/puzzle/1
+
 
 Inline-style: 
 ![alt text]( "Logo Title Text 1")
@@ -35,7 +35,7 @@ Inline-style:
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://studio.code.org/s/cspunit3/stage/10/puzzle/1 "Logo Title Text 2"
 
 
 ## Adding Buttons to our Screen  Page 48 of 52  
