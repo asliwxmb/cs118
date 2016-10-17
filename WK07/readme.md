@@ -49,10 +49,14 @@ Previous item Page 50 of 52  Next item
 ## Please answer and comment on a classmate's opinion:
 
 - Imagine we have 3 textfields and a button in our screen:
+- 3 Textfiels and 1 button
 
-- Textfield#01: Button#01: to hold the user's name
-- Textfield#02: Button#02: Another to hold the users email.
-- Textfield#03: Button#03: Another to confirm the users email button labeled "Proceed"
+### TEXTFIELDS:
+- #1) Create a textfield so that the user can type in his/her user's name and store the value in the name.
+- #2) Create a textfield so that the user can enter his/her email address.
+- #3) Create a textfield that displays textfield #1 & #2 
+- #4) Create a button with the label "Proceed" that allows the user to update his/her email or proceed.
+- #5) email button labeled "Proceed"
 - a) How do you imagine this GUI (graphical user interface) should work?  
 - b) What are the steps the user should take and do?
 - c) What should the reactions of the "form" or "app" be?
