@@ -1,6 +1,10 @@
 # cs118
-# Updated with cspunit3 stage 2 puzzle 1-7
+## Updated with cspunit3 stage 2 puzzle 1-7
 http://speakingjs.com/es5/ch29.html 
+
+# Helpers
+https://code.org/curriculum/course2/12/Teacher
+
 
 Chapter 29. JSDoc: Generating API Documentation
 It is a common development problem: you have written JavaScript code that is to be used by others and need a nice-looking HTML documentation of its API. The de facto standard tool in the JavaScript world for generating API documentation is JSDoc.[23] It is modeled after its Java analog, JavaDoc.
