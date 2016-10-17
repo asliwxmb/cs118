@@ -27,6 +27,30 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - Old Unit 3: Lesson 9 is to be read only: cs118/WK07/U3L09ActivityGuide-EventsUnplugged.pdf
 
 
+### Overview & Rules: 
+- In this activity,
+- your team’s goal is to:
+- acquire all the cards of a given suit and assemble them, face up, in sorted order on the table in front of you.
+- However, each member of your team will play a specific role (see below) and can only perform certain actions.  
+- Each role has an “event” to watch for, and a set of actions you must perform when that event happens. 
+- During the course of play,
+- cards are turned face up
+- turned face down, 
+- reordered, 
+- and exchanged with other groups in various ways. 
+- Stop once all the cards of your team’s suit are face-up, in sorted order. (You may have duplicate numbers.)
+
+### The Setup: 
+- Your teacher will assign your team a suit (clubs, hearts, spades or diamonds) and give you a set of 8 random cards.  
+- Place these cards face-down in a row on the table.  
+- Decide which end will be the “low” end so the Turn-Upper knows where to start and the Swapper knows which way to switch cards to put them in order.  
+- Make sure the Exchanger knows where the exchange area is.
+
+### To Start: 
+When your teacher says “Go!” the Turn-Upper starts her action and everyone else should begin watching for their events to occur. 
+
+
+
 
 ## Adding Buttons to our Screen  Page 48 of 52  
 
