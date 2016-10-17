@@ -26,6 +26,17 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - In other words, a function is called to do something.
 - Old Unit 3: Lesson 9 is to be read only: cs118/WK07/U3L09ActivityGuide-EventsUnplugged.pdf
 
+Here's our logo (hover to see the title text):
+https://studio.code.org/s/cspunit3/stage/10/puzzle/1
+
+Inline-style: 
+![alt text]( "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 
 ## Adding Buttons to our Screen  Page 48 of 52  
 
@@ -33,6 +44,25 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 1. You will now learn to add buttons to a screen (UI elements) and connect (clicks) events with event handlers (functions)!  
 - This will make our programs more interesting and fun!!
 - Complete the exercises at https://studio.code.org/s/cspunit3/stage/10/puzzle/1  
+
+
+### Unit 3: Lesson 10 - Buttons on the Screen
+#### Background
+- In the previous lesson you were introduced to event-driven programming with an unplugged activity. 
+- In this lesson you'll begin to develop your own event-driven programs by adding elements (like buttons)
+- to the screen and attaching event handlers to allow your program to respond to events (like a mouse click).
+
+- Vocabulary
+- Event: a user action or other occurrence that can be detected by a program. 
+- Events can be used to trigger execution of specified blocks of code
+- Event Handler: indicates which commands should run when a specified event occurs
+
+Lesson
+Create an event-driven program with a button.
+Program the button with an event handler.
+Write a function to drive the turtle with a button click.
+
+
 - Please notice these are different exercises in a new location.
 
 ## New Elements and New Event Types  Page 49 of 52  Next item
