@@ -24,7 +24,8 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - Events may be triggered by the user.  
 - What happens as a response to the  clicking, is what we called "handling the event".  
 - In other words, a function is called to do something.
-- Old Unit 3: Lesson 9 is to be read only:
+- Old Unit 3: Lesson 9 is to be read only: cs118/WK07/U3L09ActivityGuide-EventsUnplugged.pdf
+
 
 ## Adding Buttons to our Screen  Page 48 of 52  
 
