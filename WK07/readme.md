@@ -52,17 +52,15 @@ Reference-style:
 - In this lesson you'll begin to develop your own event-driven programs by adding elements (like buttons)
 - to the screen and attaching event handlers to allow your program to respond to events (like a mouse click).
 
-- Vocabulary
+#### Vocabulary
 - Event: a user action or other occurrence that can be detected by a program. 
 - Events can be used to trigger execution of specified blocks of code
 - Event Handler: indicates which commands should run when a specified event occurs
 
-Lesson
-Create an event-driven program with a button.
-Program the button with an event handler.
-Write a function to drive the turtle with a button click.
-
-
+#### Lesson
+- Create an event-driven program with a button.
+- Program the button with an event handler.
+- Write a function to drive the turtle with a button click.
 - Please notice these are different exercises in a new location.
 
 ## New Elements and New Event Types  Page 49 of 52  Next item
