@@ -40,4 +40,19 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 - you are already familiar with from using phone apps and web applications!
 - Complete the exercises for Lesson 11 at https://studio.code.org/s/cspunit3/stage/11/puzzle/1
 
+If this item does not open automatically you can open Week 7: What does event-driven mean? here
+Previous item Page 50 of 52  Next item
 
+
+
+
+## Please answer and comment on a classmate's opinion:
+
+- Imagine we have 3 textfields and a button in our screen:
+
+- Textfield#01: Button#01: to hold the user's name
+- Textfield#02: Button#02: Another to hold the users email.
+- Textfield#03: Button#03: Another to confirm the users email button labeled "Proceed"
+- a) How do you imagine this GUI (graphical user interface) should work?  
+- b) What are the steps the user should take and do?
+- c) What should the reactions of the "form" or "app" be?
