@@ -13,4 +13,16 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 5.  UI elements, events and event handlers
 6.  Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 
+## New Resources for Event-Driven Programming  Page 47 of 52  
 
+
+1. We will now start programming in an event driven environment.  
+This means, our programs will respond to user events.
+
+For example, when you use your phone, you may be clicking on a button on your screen and something happens as a response.  The button on your screen
+
+is a user interface element.  Clicking this element is what we call an event.  Events may be triggered by the user.  What happens as a response to the 
+
+clicking, is what we called "handling the event".  In other words, a function is called to do something.
+
+Old Unit 3: Lesson 9 is to be read only:
