@@ -6,7 +6,7 @@ Our Mid-Term exam will take place Friday Oct. 28th from 10 to 10:50 am.
 ## Outcomes for this week: Page 46 of 52  
 
 
-- Learning to program in an event-driven environment.
+1. Learning to program in an event-driven environment.
 - Adding buttons to our programs to create interactions with the user.
 - Handling events.
 - Developing debugging strategies.
