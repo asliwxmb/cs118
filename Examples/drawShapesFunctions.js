@@ -11,6 +11,13 @@ function draw_a_circle() {
     turnRight(1);
   }
 }
+function draw_a_triangle() {
+  for (var count2 = 0; count2 < 3; count2++) {
+    moveForward(100);
+    turnRight(120);
+  }
+}
 
+draw_a_triangle();
 draw_a_square();
-
+draw_a_square();
