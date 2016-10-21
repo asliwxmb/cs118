@@ -5,6 +5,10 @@ http://speakingjs.com/es5/ch29.html
 # Helpers
 https://code.org/curriculum/course2/12/Teacher
 
+## Logo and Fractals
+<http://dobbse.net/thinair/2008/12/logo-fractals-recursion.html>
+<https://github.com/dobbs/turtle>
+
 
 Chapter 29. JSDoc: Generating API Documentation
 It is a common development problem: you have written JavaScript code that is to be used by others and need a nice-looking HTML documentation of its API. The de facto standard tool in the JavaScript world for generating API documentation is JSDoc.[23] It is modeled after its Java analog, JavaDoc.
