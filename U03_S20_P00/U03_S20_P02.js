@@ -2,6 +2,7 @@
  * OR Operator You will now see the JavaScript boolean operators AND (&&) and OR (||) in code toolbox. You can drag them out or simply type them.
 Let's try OR right now. As a reminder: the OR operator will evaluate to true if either or both statements are true. If both are false, the OR operator will evaluate to false.
 
+<https://studio.code.org/s/cspunit3/stage/20/puzzle/2>
 
 Do This:
 
