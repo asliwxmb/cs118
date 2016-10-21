@@ -6,8 +6,480 @@ http://speakingjs.com/es5/ch29.html
 https://code.org/curriculum/course2/12/Teacher
 
 ## Logo and Fractals
-<http://dobbse.net/thinair/2008/12/logo-fractals-recursion.html>
-<https://github.com/dobbs/turtle>
+- <http://dobbse.net/thinair/2008/12/logo-fractals-recursion.html>
+
+- <https://github.com/dobbs/turtle>
+
+The section numbers are per the Berkeley Logo Reference Manual in Brian Harvey's Computer Science Logo Style volume 2: Advanced Techniques for ease of comparison.
+
+Data Types
+Data Structure Primitives
+Communication
+Arithmetic
+Logical Operations
+Graphics
+Workspace Management
+Control Structures
+Types
+"word
+Text string (terminated by whitespace)
+:variable
+Input definition/variable reference
+[ item ... ]
+List
+( expression )
+Parenthesis can be used to group expressions
+procedure input ...
+Call procedure with default number of inputs
+( procedure input ... )
+Call procedure with an arbitrary number of inputs
+2. Data Structure Primitives
+2.1 Constructors
+
+word expr expr
+(word expr ...)
+Concatenate two (or more) words into one word, separated with spaces
+list thing1 thing2
+(list thing1 thing2 ...)
+Create a new list from the inputs
+sentence thing1 thing2
+(sentence thing1 thing2 ...)
+se thing1 thing2
+(se thing1 thing2 ...)
+Create a new list from the inputs (if non-lists) or members of the inputs (if lists)
+fput thing list
+lput thing list
+Outputs list, but with thing added as a new first/last item
+combine thing1 thing2
+If thing2 is a word, like word; otherwise, like fput
+reverse list
+Outputs a list with the items in reverse order
+gensym
+Outputs a unique string, e.g. G1, G2, etc.
+2.2 Data Selectors
+
+first list
+last list
+Outputs the first or last item from the list, respectively
+butfirst list
+bf list
+butlast list
+bl list
+Outputs the list, except for the first/last item
+firsts listoflists
+Outputs a list of the first item of each sublist
+butfirsts listoflists
+bfs listoflists
+Outputs a list of sublists without the first item
+pick list
+Outputs one item from a list, at random
+item index list
+Outputs the indexth item of the list
+remove thing list
+Outputs the list with any occurences of thing removed
+remdup list
+Outputs the list with duplicates removed
+2.3 Data Mutators
+
+push stackname thing
+pop stackname
+Push to/pop from a stack i.e. list variable, e.g. make "s [] then push "s 1. Stacks grow from the front.
+queue stackname thing
+dequeue stackname
+Add/remove from a queue i.e. list variable, e.g. make "q [] then queue "q 1. Queues grow from the end
+2.4 Predicates
+
+Predicates return 1 (true) or 0 (false)
+
+wordp thing
+word? thing
+listp thing
+list? thing
+numberp thing
+number? thing
+Test if thing is a word, list, or number respectively.
+equalp expr expr
+equal? expr expr
+expr = expr
+notequalp expr expr
+notequal? expr expr
+expr <> expr
+Equality/inequality tests. Compares strings, numbers, or lists (equal if length and all members are equal).
+emptyp expr
+empty? expr
+Test if thing is an empty list or empty string.
+beforep thing1 thing2
+before? thing1 thing2
+Test string collation order.
+memberp thing list
+member? thing list
+Test if thing is equal to any member of list.
+substringp thing1 thing2
+substring? thing1 thing2
+Test if thing1 is a substring of thing2.
+2.5 Queries
+
+count thing
+Outputs length of a list or number of characters in a string
+ascii expr
+Outputs ASCII (actually, Unicode) code point for first character of string
+char expr
+Outputs Unicode character at specified code point
+uppercase expr
+lowercase expr
+Outputs string converted to upper/lowercase
+3. Communication
+3.1 Transmitters
+
+print thing
+pr thing
+(print thing1 thing2 ...)
+(pr thing1 thing2 ...)
+Print inputs to the text screen, separated by spaces, and followed by a newline. Square brackets are only put around sublists.
+type thing
+(type thing1 thing2 ...)
+Like print but with no trailing newline.
+show thing
+(show thing1 thing2 ...)
+Like print but with square brackets around list inputs.
+3.2 Receivers
+
+readword
+(readword promptstr)
+Prompt the user for a line of input. The result (including spaces) is the single word output.
+3.4 Terminal Access
+
+cleartext
+ct
+Clear the text screen.
+4. Arithmetic
+4.1 Numeric Operations
+
+Inputs are numbers or numeric expressions, output is a number.
+
+sum expr expr
+(sum expr ...)
+expr + expr
+difference expr expr
+expr - expr
+product expr expr
+(product expr ...)
+expr * expr
+quotient expr expr
+(quotient expr)
+expr / expr
+power expr expr
+expr ^ expr
+Add, subtract, multiply, divide, and raise-to-the-power-of respectively. A single input to quotient returns the reciprocal.
+remainder expr expr
+expr % expr
+modulo expr expr
+Outputs the remainder (modulus). For remainder and % the result has the same sign as the first input; for modulo the result has the same sign as a the second input.
+minus expr
+- expr
+Unary minus sign must begin a top-level expression, follow an infix operator, or have a leading space and no trailing space.
+abs num
+Absolute value
+int num
+round num
+Truncate or round a number, respectively.
+sqrt expr
+exp expr
+log10 expr
+ln expr
+Square root, e to the power of, common logarithm, and natural logarithm, respectively.
+arctan expr
+(arctan x y)
+sin expr
+cos expr
+tan expr
+The usual trig functions. Angles are in degrees.
+radarctan expr
+(radarctan x y)
+radsin expr
+radcos expr
+radtan expr
+The usual trig functions. Angles are in radians.
+iseq first last
+Outputs a list with integers from first to last, inclusive
+rseq first last count
+Outputs a list of count numbers from first to last, inclusive
+4.2 Numeric Predicates
+
+greaterp expr expr
+greater? expr expr
+expr > expr
+greaterequalp expr expr
+greaterequal? expr expr
+expr >= expr
+lessp expr expr
+less? expr expr
+expr <= expr
+lessequalp expr expr
+lessequal? expr expr
+expr <= expr
+Greater than, greater than or equal to, less than, less than or equal to, respectively. Inputs are numbers or numeric expressions, output is 1 (true) or 0 (false).
+4.3 Random Numbers
+
+random expr
+Outputs a random number from 0 through one less than expr
+4.5 Bitwise Operations
+
+bitand expr expr
+(bitand expr ...)
+bitor expr expr
+(bitor expr ...)
+bitxor expr expr
+(bitxor expr ...)
+bitnot expr
+Bitwise and, or, exclusive-or, and not, respectively.
+ashift expr bitcount
+Arithmetic bit shift. If bitcount is negative, shifts to the right, preserving sign.
+lshift expr bitcount
+Logical bit shift. If bitcount is negative, shifts to the right, zero-filling.
+5. Logical Operations
+true
+Outputs 1
+false
+Outputs 0
+and expr expr
+(and expr ...)
+or expr expr
+(or expr ...)
+xor expr expr
+(xor expr ...)
+not expr
+Logical "and", "or", "exclusive-or", and "not", respectively. Inputs are numbers or numeric expressions, output is 1 (true) or 0 (false).
+6. Graphics
+An introduction to Turtle Geometry.
+
+6.1 Turtle Motion
+
+forward expr
+fd expr
+Move turtle forward expr pixels
+back expr
+bk expr
+Move turtle backward expr pixels
+left expr
+lt expr
+Rotate expr degrees counterclockwise
+right expr
+rt expr
+Rotate expr degrees clockwise
+setpos [ expr expr ]
+setxy expr expr
+setx expr
+sety expr
+Move turtle to the specified location without drawing
+setheading expr
+seth expr
+Rotate the turtle to the specified heading
+home
+Moves the turtle to center, pointing upwards
+6.2 Turtle Motion Queries
+
+pos
+xcor
+ycor
+Outputs the current turtle position as [ x y ], x or y respectively
+heading
+Outputs the current turtle heading
+towards [ expr expr ]
+Outputs the heading towards the specified [ x y ] coordinates
+6.3 Turtle and Window Control
+
+showturtle
+st
+Show the turtle
+hideturtle
+ht
+Hide the turtle
+clean
+Clear the drawing area
+clearscreen
+cs
+Same as clean and home together
+wrap
+If the turtle moves off the edge of the screen it will continue on the other side. (default)
+window
+The turtle can move past the edges of the screen, unbounded.
+fence
+The turtle attempts to move past the edge of the screen it will stop.
+fill
+Does a paint bucket flood fill at the turtle's position.
+filled fillcolor [ statements ... ]
+Execute statements without drawing but keeping track of turtle movements. When complete, fill the region traced by the turtle with fillcolor and outline the region with the current pen style.
+label expr
+Draw a word (same logic as print) on the graphics display at the turtle location
+setlabelheight expr
+Set the height for text drawn by label, in pixels
+6.4 Turtle and Window Queries
+
+shownp
+shown?
+Outputs 1 if the turtle is shown, 0 if the turtle is hidden
+turtlemode
+Outputs WRAP, WINDOW or FENCE
+labelsize
+Outputs the height of text drawn by label, in pixels
+6.5 Pen and Background Control
+
+pendown
+pd
+Turtle resumes leaving a trail
+penup
+pu
+Turtle stops leaving a trail
+penpaint
+penerase
+penreverse
+Change the turtle drawing mode - paint (the default) leaves a colored trail, erase restores the background, reverse inverts the background.
+setpencolor logocolor
+setpencolor csscolor
+(setpencolor expr expr expr)
+Set pen/text color. Color can be a standard Logo color number (0-15), CSS color string (CSS color names or #rrggbb), or in the 3-input version, r/g/b values in 0...99.
+
+The standard Logo colors are:
+
+0: black	1: blue	2: green	3: cyan
+4: red	5: magenta	6: yellow	7: white
+8: brown	9: tan	10: green	11: aqua
+12: salmon	13: purple	14: orange	15: gray
+setpensize expr
+Set pen width in pixels. If expr is a list, the first member is used.
+6.6 Pen Queries
+
+pendownp
+pendown?
+Outputs 1 if the pen is down, 0 otherwise
+penmode
+Outputs PAINT, ERASE or REVERSE
+pencolor
+Outputs the current pen color. This will be a CSS color string, not necessarily the value passed in.
+pensize
+Outputs a two element list with the pen width and height (usually the same).
+7. Workspace Management
+7.1 Procedure Definition
+
+to procname inputs ... statements ... end
+Define a new named procedure with optional inputs
+def procname
+Outputs the definition of a named procedure as a string
+7.2 Variable Definition
+
+make varname expr
+Update a variable or define a new global variable. The variable name must be quoted, e.g. make "foo 5
+name expr varname
+Like make but with the inputs reversed
+local varname
+(local varname ...)
+A subsequent make will create the variable(s) in the local scope instead of the global scope
+localmake varname expr
+Define a variable in the local scope (shortcut for local then make
+thing varname
+Outputs the value of variable. :foo is a shortcut for thing "foo
+global varname
+Reserve the variable at the global scope. This doesn't do anything useful.
+7.4 Workspace Predicates
+
+Predicates return 1 (true) or 0 (false)
+
+procedurep name
+procedure? name
+Test if there is a procedure with the given name.
+primitivep name
+primitive? name
+Test if there is a built-in procedure with the given name.
+definedp name
+defined? name
+Test if there is a user-defined procedure with the given name.
+namep name
+name? name
+Test if there is a variable with the given name.
+7.5 Workspace Queries
+
+contents
+Outputs a list with two members. The first is a list of user-defined procedure names. The second is a list of defined variables.
+procedures
+Outputs a list of user-defined procedure names.
+primitives
+Outputs a list of primitive procedure names.
+globals
+Outputs a list of defined global variables.
+names
+Outputs a list with two members. The first is an empty list. The second is a list of defined variables.
+7.7 Workspace Control
+
+erase contentslist
+Takes a two member list, where the first is a list of user-defined procedure names to erase, and the second is a list of defined variables to erase.
+erall
+Erase all user-defined procedures and variables.
+8. Control Structures
+8.1 Control
+
+run [ statements ... ]
+Run the specified statements once
+runresult [ statements ... ]
+Run the specified statements once. If the statements return a value, the result is a list with the value as a single member. Otherwise, the result is an empty list.
+repeat expr [ statements ... ]
+Repeat statements expr times
+forever [ statements ... ]
+Repeat statements forever. Used inside a user-defined procedure that terminates with output or stop
+repcount
+Outputs the current iteration number of the current repeat or forever
+if expr [ statements ... ]
+Execute statements if the expression is non-zero
+ifelse expr [ statements ... ] [ statements ... ]
+Execute first set of statements if the expression is non-zero, otherwise execute the second set
+test expr
+Test the specified expression, save the result in the local scope for subsequent use by iftrue or iffalse
+iftrue [ statements ...]
+ift [ statements ...]
+iffalse [ statements ...]
+iff [ statements ...]
+Run the statements if the result of the last local test was non-zero (true) or zero (false) respectively.
+stop
+End the running procedure with no output value
+output expr
+op expr
+End the running procedure and output the specified value
+bye
+Terminate the program
+.maybeoutput expr
+Like output if expr returns a value, like stop otherwise
+ignore expr
+Evaluate and ignore results of the expression
+for controllist [ statements ...]
+Typical for loop. The controllist specifies three or four members: the local varname, start value, limit value, and optional step size.
+do.while [ statements ...] expr
+Runs the specified statements at least once, and repeats while the expression is non-zero (true).
+while expr [ statements ...]
+Runs the specified statements only while the expression remains non-zero (true).
+do.until[ statements ...] expr
+Runs the specified statements at least once, and repeats while the expression is zero (false).
+until expr [ statements ...]
+Runs the specified statements only while the expression remains zero (false).
+8.2 Template-based Iteration
+
+These higher-level procedures support only the "named procedure" form of template. The first input is the name of a procedure to call.
+
+apply procname list
+Call procname with the members of list as inputs
+invoke procname input1
+(invoke procname input1 ...)
+Call procname with the specified inputs as inputs
+foreach procname list
+call procname for each item in the list
+map procname list
+Outputs a list composed of the results of calling procname for each item in the list
+filter procname list
+Outputs a list composed of the input list where procname called on the item returns non-zero (true)
+find procname list
+Outputs the first item in list for which calling procname on it returns non-zero (true). If not found, the empty list is returned.
+reduce procname list
+(reduce procname list initial)
+Call procname repeatedly with two inputs - the current value and the next list item. If initial is not specified, the first list element is used instead.
 
 
 Chapter 29. JSDoc: Generating API Documentation
