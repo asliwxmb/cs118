@@ -1,3 +1,4 @@
+# Stage 14 - 
 ## Puzzle 4 of 25
 <https://studio.code.org/s/cspunit3/stage/14/puzzle/4>
 
@@ -30,7 +31,26 @@ console.log(apples);
 var oranges = 13;
 console.log(oranges);
 
-````
+```
 
 7
+
 13
+
+---
+## Puzzle 5 of 25 Debugging Variables
+<https://studio.code.org/s/cspunit3/stage/14/puzzle/5>
+
+There is a simple command called write in the UI Controls toolbox that is a fast and easy way to display text in the app itself. The way you use it is very similar to console.log. Let's debug another problem only using write instead of console.log.
+
+You may have already run into this problem! But it's worth mentioning again. To display the value of a variable you should not use quotes. Notice the difference between these two statements - the comments next to each line explains the differences:
+
+ <write("score");  // will display the literal characters s-c-o-r-e
+ write(score);    // will retrieve the value of score and display it
+Do This:
+
+To solve these problems you should only add or remove quotation marks.
+
+Run the starter code
+Locate and fix the problems
+GOAL: Make the app display what's shown at right by only adding or removing quotation marks from the code given.
