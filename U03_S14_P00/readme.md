@@ -5,7 +5,9 @@
 
 
 
-One of the most common errors that can happen when you try to run a program is Unknown identifer. This is just the computer trying to tell you that it doesn't recognize something you wrote. Usually it's the name of a variable or function that you're trying to write and there is a small misspelling.
+One of the most common errors that can happen when you try to run a program is Unknown identifer. 
+This is just the computer trying to tell you that it doesn't recognize something you wrote. 
+Usually it's the name of a variable or function that you're trying to write and there is a small misspelling.
 
 The computer doesn't hate you :) It just needs everything to be exact so it can understand what you're trying to get it to do.
 
@@ -29,3 +31,6 @@ var oranges = 13;
 console.log(oranges);
 
 ````
+
+7
+13
