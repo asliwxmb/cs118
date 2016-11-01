@@ -21,3 +21,11 @@ Run the program.
 Locate and fix the error.
 When you get it right the output to the console should look like this:
 
+``` javascript
+
+var apples = 7;
+console.log(apples);
+var oranges = 13;
+console.log(oranges);
+
+````
