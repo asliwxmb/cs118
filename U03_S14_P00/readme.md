@@ -68,3 +68,34 @@ write("The value of lives is");
 write(lives);
 ```
 
+## Puzzle 6 of 25 Create and Assign At Once
+
+It's so common to want to create a variable and give it an initial value, that JavaScript has a shortcut that lets you create and assign with one line of code like this:
+
+
+
+You'll also see a new block in the toolbox for this (see right).
+
+Do This:
+
+We'll just quickly practice using this form of variable creation and assignment. The code you write will achieve the same thing as the previous level in fewer lines of code.
+
+Create a variable called lives and assign it the value 3 using the new one-line version of this command. (See animation at right.)
+
+Add console.log statements to display the value of lives just as before.
+
+The output in the console should (again) look like this:
+
+
+
+ToolboxShow BlocksVersion History
+
+```javascript 
+var score = 0;
+console.log("The value of score is: ");
+console.log(score);
+var lives = 3;
+console.log("The value of lives is: ");
+console.log(lives);
+```
+
