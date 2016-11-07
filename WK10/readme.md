@@ -62,6 +62,7 @@ Use the rubric in https://docs.google.com/document/d/1NLv9y_XQMayjpd4U0brS61gLYR
 Resources
 
 ## Upload Assignment: W10 A6: Clicker Game  
-
+https://studio.code.org/projects/applab/Ua1AZqvJY2w2JjcLHXQnIQ/edit
+WK10A6_ClickerGame
 
 
